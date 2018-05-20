@@ -177,14 +177,12 @@ sup {
 }
 
 a {
-    color: #007bff;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #0056b3;
     text-decoration: underline
 }
 
@@ -620,8 +618,6 @@ pre code {
 
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto
 }
@@ -632,8 +628,6 @@ pre code {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px
 }
 
 .no-gutters {
@@ -6148,8 +6142,8 @@ button.close {
     transition: -webkit-transform .6s ease;
     transition: transform .6s ease;
     transition: transform .6s ease, -webkit-transform .6s ease;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    /*-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;*/
     -webkit-perspective: 1000px;
     perspective: 1000px
 }
